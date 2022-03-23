@@ -13,8 +13,8 @@ class Mail:
     def __init__(self):
         self.port = 465
         self.smtp_server_domain_name = "smtp.gmail.com"
-        self.sender_mail = "starbrightlee08@gmail.com"
-        self.password = "lmx7034562"
+        self.sender_mail = "star_brightlee008@gmail.com"
+        self.password = "lgmxx70d3w4562"
 
     def send(self, emails, subject, content):
         ssl_context = ssl.create_default_context()
